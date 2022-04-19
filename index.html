@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header class="logo">
+            <img src="imagens/logo.png" alt="logomarca da alura">
+        </header>
+        <main>
+            <div class="principal">
+                <div class="codificador">
+                    <textarea id="entrada" placeholder="Digite seu texto"></textarea>
+                    <div class="aviso">
+                        <img src="imagens/icone.png" width="12px" height="12px">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="botoes">
+                        <button class="botao botao1">Criptografar</button>
+                        <button class="botao botao2">Descriptografar</button>
+                    </div>
+                </div>
+            </div>        
+            <div id="decodificador">
+                <img class="icone" src="imagens/image.png" alt="">
+                <h2 id="none">Nenhuma mensagem encontrada</h2>
+                <p class="mensagem">Digite um texto que voce deseja criptografar ou descriptografar.</p>
+            </div>
+        </main>            
+        <script src="scripts/script.js"></script>
+        
+    </body>
+    </html>
